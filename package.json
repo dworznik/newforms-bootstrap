@@ -1,7 +1,7 @@
 {
   "name": "newforms-bootstrap",
   "description": "Bootstrap integration for newforms",
-  "version": "2.0.0",
+  "version": "2.0.0-ve.1",
   "main": "./lib/index.js",
   "standalone": "BootstrapForm",
   "homepage": "https://github.com/insin/newforms-bootstrap",
@@ -11,7 +11,7 @@
     "envify": "^3.3.0"
   },
   "peerDependencies": {
-    "newforms": ">=0.12.0",
+    "newforms": "https://github.com/dworznik/newforms/raw/react/newforms-0.12.1-ve.1.tgz",
     "react": ">=0.13.0"
   },
   "devDependencies": {
